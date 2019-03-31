@@ -1,0 +1,67 @@
+p,h1,h2,blockquote,ul,a,time,nav{
+    color: white;
+}
+
+body{
+    background-color: #1b2838;
+}
+
+header nav{
+    padding: 20px 20px 20px 5%;
+    background-color: #171a21;
+}
+
+.title{
+    display: flex;
+}
+
+.title img{
+    border: #b8b6b4 solid 2px;
+}
+
+.title nav{
+    display: inline;
+    padding-left: 1em;
+    margin: auto 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.main{
+    margin: 0% 5%;
+}
+
+aside{
+    float: right;
+    margin: 1% 5%;
+    background-color: #171a21
+}
+
+aside h2{
+    padding: 0.2em 0;
+    font-weight: normal;
+    text-align: center;
+    width: 400px;
+
+}
+
+blockquote{
+    margin: 0;
+    width: 60%;
+    font-size: small;
+    background-color: #171a21;
+    padding: 0.7em;
+    color: #b8b6b4;
+    border-top: 1px solid rgba(85, 125, 171, 0.6);
+}
+
+section h1{
+    margin: 20px 0px;
+    font-size: 24px;
+}
+
+time{
+    font-size: small;
+    color:#56707f;
+    font-weight: normal;
+}
